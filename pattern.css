@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(139, 202, 186);
+}
+div{
+    position: absolute;
+    left: 45%;
+    top: 35%;
+}
+h1{
+    text-align: center;
+}

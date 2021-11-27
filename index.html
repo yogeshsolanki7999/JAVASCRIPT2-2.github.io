@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pattern.css">
+</head>
+<body>
+<h1>THIS IS THE SOLUTION OF ASSIGNMENT NUMBER 4 PATTERN PYRAMID</h1>
+<h1>WATCH THIS PATTERN ON CONSOLE </h1>
+<div>
+    <script>
+             let n = prompt("ENTER THE NUMBER OF ROWS YOU WANT");
+let pattern = "";
+// THIS IS EXTERNAL LOOP
+for (let i = 1; i <= n; i++) {
+  // THIS INTERNAL LOOP 
+  for (let j = 1; j <= n - i; j++) {
+    pattern = pattern + " ";
+  }
+  
+  for (let star= 0; star< 2 * i - 1; star++) {
+    pattern=pattern + "*";
+  }
+  pattern = pattern + "\n";
+}
+console.log(pattern);
+
+    
+    </script>
+    </div>
+</body>
+</html>
